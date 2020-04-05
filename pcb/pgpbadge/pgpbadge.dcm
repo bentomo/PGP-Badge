@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ27426
+F http://www.ti.com/lit/ds/symlink/bq27426.pdf
+$ENDCMP
+#
+$CMP LM3658
+F http://www.ti.com/lit/ds/symlink/lm3658.pdf
+$ENDCMP
+#
+$CMP tactile_TL3305AF160QG
+F https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf
+$ENDCMP
+#
+#End Doc Library
