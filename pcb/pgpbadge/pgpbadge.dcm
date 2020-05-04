@@ -4,8 +4,28 @@ $CMP BQ27426
 F http://www.ti.com/lit/ds/symlink/bq27426.pdf
 $ENDCMP
 #
+$CMP BQ27542DRZR-G1
+F http://www.ti.com/lit/ds/symlink/bq27542-g1.pdf?ts=1588483196582
+$ENDCMP
+#
 $CMP LM3658
 F http://www.ti.com/lit/ds/symlink/lm3658.pdf
+$ENDCMP
+#
+$CMP TPD4E02B04DQAR
+F July 2016
+$ENDCMP
+#
+$CMP TPS63030DSKR
+F http://www.ti.com/lit/ds/symlink/tps63030.pdf
+$ENDCMP
+#
+$CMP UJ31-CH-3-SMT-TR
+F https://www.cuidevices.com/product/resource/uj31-ch-3-smt-tr.pdf
+$ENDCMP
+#
+$CMP UJ31-CH-3-SMT-TR_official
+F https://www.cuidevices.com/product/resource/uj31-ch-3-smt-tr.pdf
 $ENDCMP
 #
 $CMP tactile_TL3305AF160QG
