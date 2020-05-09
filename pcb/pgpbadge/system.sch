@@ -96,20 +96,6 @@ Wire Wire Line
 	3700 3900 3650 3900
 Connection ~ 3650 3900
 $Comp
-L pgpbadge:R R13
-U 1 1 5E77FBB1
-P 2600 1800
-F 0 "R13" H 2512 1754 50  0000 R CNN
-F 1 "1K" H 2512 1845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2600 1800 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2600 1800 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 2600 1800 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 2600 1800 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 2600 1800 50  0001 C CNN "URL"
-	1    2600 1800
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:C_Small C13
 U 1 1 5E7828F8
 P 3100 1700
@@ -360,20 +346,6 @@ Wire Wire Line
 	3250 5200 3350 5200
 Text Notes 2600 5700 0    50   ~ 0
 This circuit prevents "hardware flow control" from asserting RTS and DTR \ntogether that would cause the chip to reset
-$Comp
-L pgpbadge:R R16
-U 1 1 5E7D4928
-P 6300 1650
-F 0 "R16" H 6212 1696 50  0000 R CNN
-F 1 "1K" H 6212 1605 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6300 1650 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6300 1650 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 6300 1650 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 6300 1650 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 6300 1650 50  0001 C CNN "URL"
-	1    6300 1650
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6050 1300 6300 1300
 Wire Wire Line
@@ -548,20 +520,6 @@ Wire Wire Line
 	3100 1850 3100 1800
 Wire Wire Line
 	2750 1800 2750 1850
-$Comp
-L pgpbadge:R R18
-U 1 1 5E82DF56
-P 8200 1550
-F 0 "R18" H 8112 1596 50  0000 R CNN
-F 1 "1K" H 8112 1505 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 1550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8200 1550 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 8200 1550 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 8200 1550 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 8200 1550 50  0001 C CNN "URL"
-	1    8200 1550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7200 1300 8200 1300
 Wire Wire Line
@@ -636,20 +594,6 @@ Wire Wire Line
 	7800 2650 8100 2650
 Text Label 8150 3950 2    50   ~ 0
 VIBPWM
-$Comp
-L pgpbadge:R R17
-U 1 1 5E815CD1
-P 7700 5250
-F 0 "R17" H 7612 5296 50  0000 R CNN
-F 1 "1K" H 7612 5205 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7700 5250 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 7700 5250 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 7700 5250 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 7700 5250 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 7700 5250 50  0001 C CNN "URL"
-	1    7700 5250
-	0    1    1    0   
-$EndComp
 Text HLabel 7950 5250 2    50   Input ~ 0
 3.3v
 Wire Wire Line
@@ -707,20 +651,6 @@ F 5 "TL3305AF160QG" H 9200 5400 100 0001 C CNN "PN"
 F 6 "https://www.digikey.com/product-detail/en/e-switch/TL3305AF160QG/EG5350CT-ND/5816195" H 9200 5550 100 0001 C CNN "URL"
 	1    9200 4800
 	1    0    0    -1  
-$EndComp
-$Comp
-L pgpbadge:R R20
-U 1 1 5E846200
-P 9000 4550
-F 0 "R20" H 8912 4596 50  0000 R CNN
-F 1 "1K" H 8912 4505 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9000 4550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9000 4550 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 9000 4550 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 9000 4550 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 9000 4550 50  0001 C CNN "URL"
-	1    9000 4550
-	0    1    1    0   
 $EndComp
 Text HLabel 9250 4550 2    50   Input ~ 0
 3.3v
@@ -780,20 +710,6 @@ F 6 "https://www.digikey.com/product-detail/en/e-switch/TL3305AF160QG/EG5350CT-N
 	1    10400 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L pgpbadge:R R23
-U 1 1 5E84AACA
-P 10200 4550
-F 0 "R23" H 10112 4596 50  0000 R CNN
-F 1 "1K" H 10112 4505 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10200 4550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10200 4550 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 10200 4550 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 10200 4550 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 10200 4550 50  0001 C CNN "URL"
-	1    10200 4550
-	0    1    1    0   
-$EndComp
 Text HLabel 10450 4550 2    50   Input ~ 0
 3.3v
 Wire Wire Line
@@ -851,20 +767,6 @@ F 5 "TL3305AF160QG" H 9200 6450 100 0001 C CNN "PN"
 F 6 "https://www.digikey.com/product-detail/en/e-switch/TL3305AF160QG/EG5350CT-ND/5816195" H 9200 6600 100 0001 C CNN "URL"
 	1    9200 5850
 	1    0    0    -1  
-$EndComp
-$Comp
-L pgpbadge:R R21
-U 1 1 5E85A7BD
-P 9000 5600
-F 0 "R21" H 8912 5646 50  0000 R CNN
-F 1 "1K" H 8912 5555 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9000 5600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9000 5600 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 9000 5600 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 9000 5600 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 9000 5600 50  0001 C CNN "URL"
-	1    9000 5600
-	0    1    1    0   
 $EndComp
 Text HLabel 9250 5600 2    50   Input ~ 0
 3.3v
@@ -924,20 +826,6 @@ F 6 "https://www.digikey.com/product-detail/en/e-switch/TL3305AF160QG/EG5350CT-N
 	1    10400 5850
 	1    0    0    -1  
 $EndComp
-$Comp
-L pgpbadge:R R24
-U 1 1 5E85A7E7
-P 10200 5600
-F 0 "R24" H 10112 5646 50  0000 R CNN
-F 1 "1K" H 10112 5555 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10200 5600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10200 5600 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 10200 5600 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 10200 5600 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 10200 5600 50  0001 C CNN "URL"
-	1    10200 5600
-	0    1    1    0   
-$EndComp
 Text HLabel 10450 5600 2    50   Input ~ 0
 3.3v
 Wire Wire Line
@@ -992,20 +880,6 @@ Text Label 8650 5800 0    50   ~ 0
 left
 Text Label 9800 5800 0    50   ~ 0
 right
-$Comp
-L pgpbadge:R R19
-U 1 1 5E87D562
-P 8850 3200
-F 0 "R19" H 8762 3246 50  0000 R CNN
-F 1 "1K" H 8762 3155 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8850 3200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8850 3200 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 8850 3200 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 8850 3200 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 8850 3200 50  0001 C CNN "URL"
-	1    8850 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 3050 9300 3050
 Wire Wire Line
@@ -1016,20 +890,6 @@ Wire Wire Line
 	9250 3350 9250 3000
 Wire Wire Line
 	9250 3000 9100 3000
-$Comp
-L pgpbadge:R R22
-U 1 1 5E8C91FA
-P 9100 3200
-F 0 "R22" H 9012 3246 50  0000 R CNN
-F 1 "1K" H 9012 3155 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9100 3200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9100 3200 50  0001 C CNN
-F 4 "P1.00KLCT-ND" H 9100 3200 50  0001 C CNN "DPN"
-F 5 "ERJ-2RKF1001X" H 9100 3200 50  0001 C CNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF1001X/P1-00KLCT-ND/97341" H 9100 3200 50  0001 C CNN "URL"
-	1    9100 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 3350 9100 3550
 Connection ~ 9100 3550
@@ -1114,4 +974,174 @@ SCL
 Text Label 6350 1950 0    50   ~ 0
 En
 NoConn ~ 7800 2950
+$Comp
+L pgpbadge:R R13
+U 1 1 5EB74FD2
+P 2600 1800
+AR Path="/5E76E48F/5EB74FD2" Ref="R13"  Part="1" 
+AR Path="/5E76D91B/5EB74FD2" Ref="R?"  Part="1" 
+AR Path="/5EB74FD2" Ref="R?"  Part="1" 
+F 0 "R13" H 2512 1754 50  0000 R CNN
+F 1 "5.6k" H 2512 1845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2600 1800 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 2600 1800 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 2600 1800 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 2600 1800 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 2600 1800 50  0001 C CNN "URL"
+	1    2600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pgpbadge:R R16
+U 1 1 5EB7D419
+P 6300 1650
+AR Path="/5E76E48F/5EB7D419" Ref="R16"  Part="1" 
+AR Path="/5E76D91B/5EB7D419" Ref="R?"  Part="1" 
+AR Path="/5EB7D419" Ref="R?"  Part="1" 
+F 0 "R16" H 6212 1604 50  0000 R CNN
+F 1 "5.6k" H 6212 1695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6300 1650 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 6300 1650 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 6300 1650 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 6300 1650 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 6300 1650 50  0001 C CNN "URL"
+	1    6300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L pgpbadge:R R18
+U 1 1 5EB84DDF
+P 8200 1550
+AR Path="/5E76E48F/5EB84DDF" Ref="R18"  Part="1" 
+AR Path="/5E76D91B/5EB84DDF" Ref="R?"  Part="1" 
+AR Path="/5EB84DDF" Ref="R?"  Part="1" 
+F 0 "R18" H 8112 1504 50  0000 R CNN
+F 1 "5.6k" H 8112 1595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 1550 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8200 1550 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 8200 1550 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 8200 1550 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 8200 1550 50  0001 C CNN "URL"
+	1    8200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pgpbadge:R R19
+U 1 1 5EB8C88E
+P 8850 3200
+AR Path="/5E76E48F/5EB8C88E" Ref="R19"  Part="1" 
+AR Path="/5E76D91B/5EB8C88E" Ref="R?"  Part="1" 
+AR Path="/5EB8C88E" Ref="R?"  Part="1" 
+F 0 "R19" H 8762 3154 50  0000 R CNN
+F 1 "5.6k" H 8762 3245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8850 3200 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8850 3200 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 8850 3200 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 8850 3200 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 8850 3200 50  0001 C CNN "URL"
+	1    8850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pgpbadge:R R22
+U 1 1 5EB93DDA
+P 9100 3200
+AR Path="/5E76E48F/5EB93DDA" Ref="R22"  Part="1" 
+AR Path="/5E76D91B/5EB93DDA" Ref="R?"  Part="1" 
+AR Path="/5EB93DDA" Ref="R?"  Part="1" 
+F 0 "R22" H 9012 3154 50  0000 R CNN
+F 1 "5.6k" H 9012 3245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9100 3200 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9100 3200 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 9100 3200 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 9100 3200 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 9100 3200 50  0001 C CNN "URL"
+	1    9100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pgpbadge:R R20
+U 1 1 5EBA328A
+P 9000 4550
+AR Path="/5E76E48F/5EBA328A" Ref="R20"  Part="1" 
+AR Path="/5E76D91B/5EBA328A" Ref="R?"  Part="1" 
+AR Path="/5EBA328A" Ref="R?"  Part="1" 
+F 0 "R20" H 8912 4504 50  0000 R CNN
+F 1 "5.6k" H 8912 4595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9000 4550 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9000 4550 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 9000 4550 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 9000 4550 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 9000 4550 50  0001 C CNN "URL"
+	1    9000 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L pgpbadge:R R23
+U 1 1 5EBAA6A6
+P 10200 4550
+AR Path="/5E76E48F/5EBAA6A6" Ref="R23"  Part="1" 
+AR Path="/5E76D91B/5EBAA6A6" Ref="R?"  Part="1" 
+AR Path="/5EBAA6A6" Ref="R?"  Part="1" 
+F 0 "R23" H 10112 4504 50  0000 R CNN
+F 1 "5.6k" H 10112 4595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10200 4550 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 10200 4550 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 10200 4550 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 10200 4550 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 10200 4550 50  0001 C CNN "URL"
+	1    10200 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L pgpbadge:R R21
+U 1 1 5EBB1D42
+P 9000 5600
+AR Path="/5E76E48F/5EBB1D42" Ref="R21"  Part="1" 
+AR Path="/5E76D91B/5EBB1D42" Ref="R?"  Part="1" 
+AR Path="/5EBB1D42" Ref="R?"  Part="1" 
+F 0 "R21" H 8912 5554 50  0000 R CNN
+F 1 "5.6k" H 8912 5645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9000 5600 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9000 5600 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 9000 5600 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 9000 5600 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 9000 5600 50  0001 C CNN "URL"
+	1    9000 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L pgpbadge:R R24
+U 1 1 5EBB920E
+P 10200 5600
+AR Path="/5E76E48F/5EBB920E" Ref="R24"  Part="1" 
+AR Path="/5E76D91B/5EBB920E" Ref="R?"  Part="1" 
+AR Path="/5EBB920E" Ref="R?"  Part="1" 
+F 0 "R24" H 10112 5554 50  0000 R CNN
+F 1 "5.6k" H 10112 5645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10200 5600 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 10200 5600 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 10200 5600 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 10200 5600 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 10200 5600 50  0001 C CNN "URL"
+	1    10200 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L pgpbadge:R R17
+U 1 1 5EB9BE06
+P 7700 5250
+AR Path="/5E76E48F/5EB9BE06" Ref="R17"  Part="1" 
+AR Path="/5E76D91B/5EB9BE06" Ref="R?"  Part="1" 
+AR Path="/5EB9BE06" Ref="R?"  Part="1" 
+F 0 "R17" H 7612 5204 50  0000 R CNN
+F 1 "5.6k" H 7612 5295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7700 5250 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 7700 5250 50  0001 C CNN
+F 4 "P5.6KJCT-ND" H 7700 5250 50  0001 C CNN "DPN"
+F 5 "ERJ-2GEJ562X" H 7700 5250 50  0001 C CNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ562X/P5-6KJCT-ND/147045" H 7700 5250 50  0001 C CNN "URL"
+	1    7700 5250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

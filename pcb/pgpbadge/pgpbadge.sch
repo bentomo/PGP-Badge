@@ -102,20 +102,6 @@ NoConn ~ 4650 1750
 NoConn ~ 4550 1750
 NoConn ~ 4350 1750
 $Comp
-L pgpbadge:UJ31-CH-3-SMT-TR_official J1
-U 1 1 5EB151FF
-P 5150 1250
-F 0 "J1" V 5100 50  50  0000 C CNN
-F 1 "UJ31-CH-3-SMT-TR_official" V 5076 1250 50  0000 C CNN
-F 2 "CUI_UJ31-CH-3-SMT-TR" H 6200 1000 50  0001 L BNN
-F 3 "https://www.cuidevices.com/product/resource/uj31-ch-3-smt-tr.pdf" H 5150 1250 50  0001 L BNN
-F 4 "102-4484-1-ND" H 6500 1100 50  0001 L BNN "DPN"
-F 5 "UJ31-CH-3-SMT-TR" H 6300 1200 50  0001 L BNN "PN"
-F 6 "https://www.digikey.com/product-detail/en/cui-devices/UJ31-CH-3-SMT-TR/102-4484-1-ND/8024064" V 4900 1250 50  0001 C CNN "URL"
-	1    5150 1250
-	0    1    1    0   
-$EndComp
-$Comp
 L pgpbadge:R R?
 U 1 1 5EB1F8E4
 P 5150 2200
@@ -265,4 +251,18 @@ Wire Wire Line
 Wire Wire Line
 	6550 3700 6550 2150
 Connection ~ 6550 2150
+$Comp
+L pgpbadge:UJ31-CH-3-SMT-TR_official J1
+U 1 1 5EB64BEA
+P 5150 1250
+F 0 "J1" V 5050 50  50  0000 C CNN
+F 1 "UJ31-CH-3-SMT-TR_official" V 5076 1250 50  0000 C CNN
+F 2 "pgpbadge:CUI_UJ31-CH-3-SMT-TR" H 6200 1000 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/uj31-ch-3-smt-tr.pdf" H 5150 1250 50  0001 L BNN
+F 4 "102-4484-1-ND" H 6500 1100 50  0001 L BNN "DPN"
+F 5 "UJ31-CH-3-SMT-TR" H 6300 1200 50  0001 L BNN "PN"
+F 6 "https://www.digikey.com/product-detail/en/cui-devices/UJ31-CH-3-SMT-TR/102-4484-1-ND/8024064" V 4900 1250 50  0001 C CNN "URL"
+	1    5150 1250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
